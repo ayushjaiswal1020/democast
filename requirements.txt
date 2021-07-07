@@ -1,3 +1,14 @@
 pyrogram
+telegram.ext
+telegram
+telegram.error
+requests,json
+os
+requests
+json
+random
+paytmchecksum
+captcha.image
+string
 tgcrypto
 aiohttp==3.7.4
