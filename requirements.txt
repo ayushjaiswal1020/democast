@@ -1,7 +1,5 @@
 pyrogram
-
 telegram
-telegram.error
 requests
 json
 random
