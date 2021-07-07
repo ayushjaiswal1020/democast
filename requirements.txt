@@ -1,7 +1,6 @@
 pyrogram
 telegram
 requests
-json
 random
 paytmchecksum
 captcha.image
