@@ -3,6 +3,6 @@ telegram
 requests
 paytmchecksum
 captcha
-string
+
 tgcrypto
 aiohttp==3.7.4
