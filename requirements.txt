@@ -2,7 +2,7 @@ pyrogram
 telegram
 requests
 paytmchecksum
-captcha.image
+captcha
 string
 tgcrypto
 aiohttp==3.7.4
