@@ -1,5 +1,5 @@
 pyrogram
-telegram.ext
+
 telegram
 telegram.error
 requests
