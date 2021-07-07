@@ -1,0 +1,28 @@
+{
+    "name": "GPlink_Bot",
+    "description": "Make short link by using GPlink API key",
+    "keywords": [
+        "telegram",
+        "gplink"
+    ],
+    "website": "https://github.com/ayushjaiswal1020/democast",
+    "repository": "https://github.com/ayushjaiswal1020/democast",
+    "env": {
+        "API_KEY": {
+            "description": "Get API key from https://gplinks.in/member/tools/api",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
