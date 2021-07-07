@@ -2,7 +2,6 @@ pyrogram
 telegram.ext
 telegram
 telegram.error
-requests,json
 os
 requests
 json
