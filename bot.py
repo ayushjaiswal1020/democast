@@ -1,15 +1,3 @@
-from telegram import Updater, CommandHandler, RegexHandler, MessageHandler,Filters
-from telegram import ReplyKeyboardMarkup,Bot
-import telegram
-from telegram import Updater, CommandHandler, MessageHandler, Filters,PollAnswerHandler, ConversationHandler,CallbackQueryHandler
-from telegram import KeyboardButton
-from telegram.error import TelegramError
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove)
-import requests,json
-import os
-import requests
-import json
 import random
 import paytmchecksum
 from captcha.image import ImageCaptcha
