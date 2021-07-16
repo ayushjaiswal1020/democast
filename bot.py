@@ -1,6 +1,21 @@
+from telegram.ext import Updater, CommandHandler, RegexHandler, MessageHandler,Filters
+from telegram import ReplyKeyboardMarkup,Bot
+import telegram.ext
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters,PollAnswerHandler, ConversationHandler,CallbackQueryHandler
+from telegram import KeyboardButton
+from telegram.error import TelegramError
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove)
+import requests,json
+import os
+import requests
+import json
+import random
+import paytmchecksum
+from captcha.image import ImageCaptcha
 import string
 BAS,DAD,FI,FA,FS,FB,FC,BAG,HAM,AB,HA,HB= range(12)
-TOKEN = "1486301742:AAFVT-UxjwuJONMKDK7rAtC9nwVRPafBVUI"
+TOKEN = "1785476005:AAFUn8f8WccYLEEIQvRa7jP3N4xdUgYYY6M"
 refr = [0.1]
 dci=[0.1]
 wmin=[1.0]
@@ -16,7 +31,7 @@ def start(update, context):
     user = str(update.effective_user.id)
     data = json.load(open('users.json','r'))
     if update.message.chat.type == 'private':
-        if user=="820087402":
+        if user=="997822204":
             reply_markup = ReplyKeyboardMarkup(admin_key,resize_keyboard=True)
             update.message.reply_text("Welcome to Admin Dashboard",reply_markup=reply_markup)
             return DAD
